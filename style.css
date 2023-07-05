@@ -1,29 +1,100 @@
 body {
-    background-color: rgb(253, 235, 208);
-    padding-top: 0;
+    padding: 0;
     margin: 0;
 }
 li {
     list-style-type: none;
+    text-decoration: none;
 }
 a {
-
-text-decoration: black;
-
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    opacity: 0.8;
+    transform: scale(1.25);
+    transition: 2.5s ease-in-out;   
 }
 h1 {
-    text-decoration: none;
-    color: rgb(133, 193, 233 );
+    font-size: 6rem;
+    color: rgb(190, 169, 126);
 }
-/* ************************************************nav************************************ */
+h2 {
+    font-size: 4rem;
+    color: rgb(190, 169, 126);
+}
+h3{
+    font-size: 2rem;
+}
+/* ******************************************************************* */
 nav {
-    background-color: rgb(222, 231, 246);
-    padding: 0;
-    margin-top: 0;
-    height: 5rem;
+    position: fixed;
+    background-color: rgb(197, 180, 124);
     width: 100%;
-    opacity: 0.5;
-    
+    text-shadow: 1px 3px 3px rgb(48, 48, 48) ;
+    opacity: 0.8;
+}
+#raccourci li{
+    /* float: right; */
+    float: left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#raccourci li a{
+    display: block;
+    padding: 2rem 8rem;
+}
+#titre {
+    padding-top: 18rem;
+    text-align: center;
+    height: 40rem;
+}
+#premierTrait {
+    height: 1px;
+    width: 25%;
+    margin: auto;
+    color: rgb(190, 169, 126);
 }
 
-/* ************************************************etude****************************************** */
+/* *********************************************************************** */
+
+#formation {
+    height: 40rem;
+    text-align: center;
+}
+#etudes {
+    padding-top: 10rem;
+}
+
+/* ************************************************************ */
+
+#experience{
+    padding: 20rem 20rem 20rem 20rem;
+    height: 40rem;
+    text-align: center;
+}
+#experienceProfessionnelle {
+    padding-top: 10rem;
+}
+
+/* ********************************************************* */
+
+#loisir{
+    padding: 20rem 20rem 20rem 20rem;
+    height: 40rem;
+    text-align: center;
+}
+#hobies{
+    padding-top: 10rem;
+}
+
+/* *************************************************** */
+
+#Contact{
+    padding: 20rem 20rem 20rem 20rem;
+    height: 40rem;
+    text-align: center;
+}
+#Cont{
+    padding-top: 10rem;
+}
